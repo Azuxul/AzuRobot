@@ -3,7 +3,6 @@
 #include "ServerSync.h"
 #include "MotorManager.h"
 
-UltrasonicSensor ultrasonicSensor = UltrasonicSensor();
 ServerSync sync = ServerSync();
 MotorManager motorManager = MotorManager();
 LiquidCrystal_I2C lcd(0x27, 16, 2);
